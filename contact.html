@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Contacto </title>
+
+
+    <!-------------------- Fuentes Google ----------------------->  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;900&display=swap" rel="stylesheet">
+    <!------------------ Fuentes Google (test)------------------->  
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!----------------------- Boostrap  ------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-------------------- Hojas de estilo ---------------------->  
+    <link rel="stylesheet" type="text/css" href="css/styles-sass.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-------------------- Iconos FontAwsome -------------------->  
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+   
+    <!-------------------- Iconos FontAwsome -------------------->  
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-------------------- Iconos FontAwsome -------------------->  
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <!------------------------------------------------------------>
+
+</head>
+
+<body> <!-- Incio de Body -->
+    <header id="header" > <!-- Incio de Header -->
+        
+        <!-- Incio de Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+          <a class="navbar-brand " href="#">
+            <img src="Logo" alt="img-logo">
+          </a>  
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item active ">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">Nosotros</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="./solutions.html">Soluciones</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="./service.html">Servicios</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="./pricing.html">Abonos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contacto</a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="navbar-contact d-flex justify-content-start" >
+                <a class="" href="#"><i class="fa fa-whatsapp color-secundary"></i></a>
+                <a class="" href="#"><i class="fa fa-facebook color-secundary"></i></a>
+                <a class="" href="#"><i class="fa fa-twitter  color-secundary"></i></a>
+                <a class="" href="#"><i class="fa fa-github  color-secundary"></i></a>
+           </div>
+        
+        </nav><!-- Fin de Navbar -->
+       
+    
+
+
+
+    </header> <!-- Fin de Header -->
+
+    <main class="contenedor seccion contenido-centrado ">
+
+        <div class="contenedor centrar-texto ">
+            <img src="./img/contact-img.svg" id="contact-img" alt="Imagen Contacto">
+        </div>
+
+        <h2 class="fw-300 centrar-texto">Contactanos !</h2>
+        
+  <form class="">
+  <fieldset class="border p-2">
+  <div class="form-row row centrar-texto">
+     <legend class="centrar-texto">Información Personal</legend>
+    <div class="form-group col-md-10 mx-auto">
+      <label for="inputNombre">Nombre:</label>
+      <input type="text" class="form-control centrar-texto" id="inputNombre" placeholder="Nombre completo" name="nombre" required="25" minlength="5">
+    </div>
+  </div>
+  <div class="form-row row centrar-texto">
+    <div class="form-group col-md-6">
+      <label for="tel">Teléfono:</label>
+      <input type="phone" id="tel" class=" form-control centrar-texto" name="tel" placeholder="Cod.área - xxxx -xxxx" pattern="^[11|15]\d{8}$" title="Numero de celular inválido">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" class=" form-control centrar-texto" placeholder="Correo electrónico" name="email" required="25" minlength="5" maxlength="30" >
+
+    </div>
+  </div>
+
+
+  <div class="form-row row centrar-texto">
+    <div class="form-group col-md-4 mx-auto">
+
+       <label for="inputCountry">Pais:</label>
+                    <select id="inputCountry" class="form-control ">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Ecuador">Ecuador</option>
+                    </select>
+
+
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputCity">Ciudad:</label>
+      <input type="text" id="inputCity" class=" form-control centrar-texto" placeholder="Ciudad" name="ciudad" required="25" minlength="5" maxlength="40" >
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputLocal">Localidad:</label>
+      <input type="text" id="inputLocal" class=" form-control centrar-texto" placeholder="Localidad" name="Localidad" required="25" minlength="5" maxlength="40" >
+    </div>
+  </div>
+
+  <div class="form-row row centrar-texto">
+    <div>
+      <label for="mensaje" class="centrar-texto">Mensaje:</label>
+      <textarea class="centrar-texto" id="mensaje" id="messg" cols="80" rows="6" placeholder="Dejanos tu mensaje" maxlength="500"></textarea>
+     </div>
+  </div>
+
+  </fieldset>
+
+  
+
+
+  <fieldset class="border p-2">
+    <legend class="centrar-texto"> Motivo de consulta </legend>
+                
+      <div class="centrar-texto ">
+        <label for="opciones">Servicio a consultar</label>
+          <select id="opciones">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="Compra">Reparacion</option>
+                        <option value="Vende">Instalacion</option>
+                        <option value="Vende">Desarrollo</option>
+                        <option value="Vende">Compra</option>
+                        <option value="Vende">Venta</option>
+                    </select>
+                   
+    </div>
+               
+    </fieldset>
+
+
+  <fieldset class="border p-2">
+    <legend class="centrar-texto ">Contacto</legend>
+    <p class="centrar-texto" >¿Como desea ser Contactado?</p>
+    <div class="form-row row centrar-texto">
+      <div class="forma-contacto centrar-texto">
+            <label for="telefono">Teléfono</label>
+            <input type="radio" name="contacto" value="telefono" id="telefono">
+          <label for="correo">E-mail</label>
+        <input type="radio" name="contacto" value="correo" id="correo">
+      </div>
+        <div class="centrar-texto">
+                    <p> Decinos en que horario estas disponible para hablar</p>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" min="09:00" max="18:00">
+                </div>
+    </div>
+  </fieldset>
+  <div class ="contenedor centrar-texto ">
+    <input type="submit" value="Enviar" class="boton boton-verde ">
+  </div>
+</form>
+
+  </main>
+    
+  <!-- Inicio de Footer -->
+  <footer id="footer">
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Nombre</h3>
+            <p>
+              Direccion <br>
+              Buenos Aires, CABA<br>
+              Argentina <br><br>
+              <strong>Teléfono:</strong> +54 9 11 5589 55488<br>
+              <strong>Email:</strong> prueba@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nosotros</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4> Servicios</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestras redes sociales</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3 d-flex justify-content-between">
+                <a class="facebook" href="#"><i class="fa fa-facebook color-secundary"></i></a>
+                <a class="twitter" href="#"><i class="fa fa-twitter  color-secundary"></i></a>
+                <a class="github" href="#"><i class="fa fa-github  color-secundary"></i></a>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin  color-secundary"></i></a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+   </footer><!-- Fin de Footer -->
+   
+   
+  <!--------------------- xxxxxxxxxxxx ----------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!------------------------ jQuery  ------------------------->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!--------------------- Scripts Aos  ----------------------->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+  <!------------------ Scripts Propios  ---------------------->
+    <script src="js/my_script.js"></script> 
+  <!---------------------------------------------------------->
+
+</body> <!-- Fin de Body -->
+
+</html>

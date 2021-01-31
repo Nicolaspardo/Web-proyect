@@ -1,0 +1,12 @@
+
+%botones {
+	width: 100px;
+	text-align:center;
+	margin: 0px;
+}
+
+@mixini minxinBotones($color,$ancho,$alto){
+	background-color: $color;
+	width: $ancho;
+	height: $alto;
+}

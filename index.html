@@ -1,17 +1,603 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>
-		
-	</title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	<p>Test</p>
-
-	<h1> Nuevo texto</h1>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Página web de soporte técnico">
+	<meta name="keywords" content="Soporte IT, Infraestructura IT, Soluciones y Servicios IT, Desarrollo">
+	<meta name="author" content="Nicolas Pardo">
 	
-</body>
+	<meta property="og:locale" content="Es_es">
+	<meta property="og:type"   content="website">
+	<meta property="og:title"  content="Titulo">
+	<meta property="og:description" content="Página web de soporte técnico">
+	<meta property="og:url" content="https://sitioweb.com.ar">
+	<meta property="og:img" content="image/logo.jpg">
+
+	<title>Pagina-IT-Service+PardoNicolas</title>
+
+	<!-------------------- Fuentes Google ----------------------->  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;900&display=swap" rel="stylesheet">
+
+    <!----------------------- Boostrap  ------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!----------------------- jQuery's ------------------------->  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <!-------------------- Estilos Propios ---------------------->  
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-sass.css">
+   
+    <!-------------------- Iconos FontAwsome -------------------->  
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" >
+
+    <!------------------------- Scripts ------------------------>  
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+<body> <!-- Incio de Body -->
+
+	
+
+	<header class="site-header" > <!-- Incio de Header -->
+
+		<!-- Incio de Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+		  <a class="navbar-brand logo" href="#">
+		  	<img src="img/logo_surit.svg" alt="logo-img">
+		  </a>  
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      
+		      <li class="nav-item active ">
+		        <a class="nav-link" href="./index.html">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="./about-us.html">Nosotros</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="./solutions.html">Soluciones</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="./service.html">Servicios</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="./pricing.html">Abonos</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="./contact.html">Contacto</a>
+		      </li>
+		     
+		    </ul>
+		  </div>
+		  <div class="navbar-contact d-flex justify-content-start" >
+		    	<a class="" href="#"><i class="fa fa-whatsapp color-secundary"></i></a>
+				<a class="" href="#"><i class="fa fa-facebook color-secundary"></i></a>
+				<a class="" href="#"><i class="fa fa-twitter  color-secundary"></i></a>
+				<a class="" href="#"><i class="fa fa-github  color-secundary"></i></a>
+
+		   </div>
+		
+		</nav><!-- Fin de Navbar -->
+
+		<!-- The navigation menu -->
+		<div class="home hero contenedor-home-inicio hijo-fila">	
+			<div class="centrar-texto contenedor-home hijo-fila">
+					<h1 class="home-title fw-900 columna1-home"> Titulo del proyecto </h1>
+					<h2 class="home-substitule fw-300 columna2-home"> Subtítulo </h2>
+					<p id="home-text" class="columna3-home" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+					<div>
+						<button class="learn-more-btn"> Bot1</button>
+					</div>
+					
+
+			</div>
+			<div class=" hijo-fila">
+				<img class="header-img" id="" src="img/home.jpg" alt="Home-img" width="40%" height="40%">
+			</div>
+
+		</div>
+
+			
+
+	</header> <!-- Fin de Header -->
+
+	<main> <!-- Incio de Main -->			
+
+		<section>
+			<div class="contenedor seccion centrar-texto">
+				<h3 class="negrita "> En que podemos ayudarte? </h3>
+			</div>
+			<div class="container">
+			  	<div class="row">				
+   					<div class="col">			
+						<div class="container">
+							<div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					            <div class="icon-box">
+					                    <div class="icon ">
+					                      <i class="fa fa-code shadow color-sixth"></i>
+					                    </div>     
+					                    <h4 class="centrar-texto"><a href="">Backup & Recuperación</a></h4>
+					            </div>
+					         </div>
+
+
+						</div>
+					</div>
+	    			<div class="col">			
+						<div class="container">
+							<div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					            <div class="icon-box">
+					                    <div class="icon">
+					                      <i class="fa fa-code shadow color-sixth"></i>
+					                    </div>     
+					                    <h4 class="centrar-texto"><a href="">Backup & Recuperación</a></h4>
+					            </div>
+					         </div>
+						</div>
+					</div>
+	    			<<div class="col">			
+						<div class="container">
+							<div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					            <div class="icon-box">
+					                    <div class="icon ">
+					                      <i class="fa fa-code shadow color-sixth"></i>
+					                    </div>     
+					                    <h4 class="centrar-texto"><a href="">Desarrollo </a></h4>
+					            </div>
+					         </div>
+
+
+						</div>
+					</div>
+	    			<div class="col">			
+						<div class="container">
+							<div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					            <div class="icon-box">
+					                    <div class="icon ">
+					                      <i class="fa fa-code shadow color-sixth"></i>
+					                    </div>     
+					                    <h4 class="centrar-texto"><a href="">Backup & Recuperación</a></h4>
+					            </div>
+					         </div>
+
+
+						</div>
+					</div>
+	    			<div class="col">			
+						<div class="container">
+							<div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					            <div class="icon-box">
+					                    <div class="icon ">
+					                      <i class="fa fa-code shadow color-sixth"></i>
+					                    </div>     
+					                    <h4 class="centrar-texto"><a href="">Backup & Recuperación</a></h4>
+					            </div>
+					         </div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+
+
+		<section id="aboutus-sec" class="contenedor seccion centrar-texto"> <!-- Inicio About sec. -->
+			<h3 class="negrita"> Acerca Nuestro </h3>
+			<h4 class="color-secundary"> Substitulo  </h4>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritati
+			</p>
+
+			<div class="contenedor-row" >
+				<div class="fw-300 centrar-texto contenedor">
+					<p>
+					Texto izquierda
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam in nostrum, consequatur eum provident rerum perferendis ullam quibusdam, iure aliquid ab qui alias quasi tempora. Placeat esse doloribus nisi.
+					</p>
+				</div>
+
+				<div class="fw-300 centrar-texto contenedor">
+					<p>
+
+					Texto derecha
+					Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Corporis quasi dicta tenetur quod aliquam magnam, labore fuga eveniet, perspiciatis. Sunt culpa velit dolores mollitia recusandae odit, doloremque temporibus.
+					</p>
+				</div>
+			</div>
+
+			<div class="contenedor-row">
+				<div>
+					<h3> Nuestro enfoque </h3>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+				</div>
+
+				<div class="icono">
+               		<img src="img/icon-service-2.svg" alt="">
+               		<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i>
+
+					 <p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
+				</div>
+				
+				<div class="icono">
+                	<img src="img/icon-service-1.svg" alt="">
+					 <p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
+				</div>
+
+				<div class="icono">
+                	<img src="img/icon-service-2.svg" alt="">
+					 <p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
+				</div>
+
+			</div>
+
+		</section> <!-- Fin de About sec.-->
+
+
+		<section id="solutions-sec" class="contenedor seccion "> <!-- Inicio Soluc. sec. -->
+			<h3 class="centrar-texto"> Soluciones Título</h3>
+
+			<div class="contenedor-row">
+				<div class="soluciones-foto">
+					<img src="./img/img-solutions1.jpg" height="250px" width="400px" alt="img">
+				</div>
+
+				<div class="soluciones-texto">
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+				</div>
+			</div>
+
+
+			<div class="contenedor-row">
+				<div class="soluciones-texto">
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+				</div>
+
+				<div class="soluciones-foto">
+					<img src="./img/img-solutions1.jpg" height="250px" width="400px" alt="img">
+				</div>
+			</div>
+
+
+			<div class="contenedor-row">
+				<div class="soluciones-foto">
+					<img src="./img/img-solutions1.jpg" height="250px" width="400px" alt="img">
+				</div>
+
+				<div class="soluciones-texto">
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+				</div>
+			</div>
+			
+		</section> <!-- Fin de Soluc sec.-->
+
+
+		<section id="service-sec" class="contenedor seccion centrar-texto "> <!-- Inicio Servic. sec. -->
+			<h3> Portafoloio de servicios </h3>
+			<p>Conoce mas sobre nuestros servicios</p>
+			
+			<div class="contenedor-row contenedor-servicios">
+				<div class="servicio">
+					<img src="./img/img-solutions1.jpg" height="150px" width="250px" alt="img">
+					 <p class="color-fourty">Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
+					 <a class="color-fourty" href="#">Leer más</a>
+
+				</div>
+
+				<div class="servicio">
+					<img src="./img/img-solutions1.jpg" height="150px" width="250px" alt="img">
+					<p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
+					<a href="#">Leer más</a>
+
+				</div>
+
+				<div class="servicio">
+					<img src="./img/img-solutions1.jpg" height="150px" width="250px" alt="img">
+					<p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
+					<a href="#">Leer más</a>
+
+				</div>
+			</div>
+			
+			<div class="contenedor-row contenedor-servicios">
+				<div class="servicio">
+					<img src="./img/img-solutions1.jpg" height="150px" width="250px" alt="img">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+					<a href="#">Leer más</a>
+
+				</div>
+
+				<div class="servicio">
+					<img src="./img/img-solutions1.jpg" height="150px" width="250px" alt="img">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+					<a href="#">Leer más</a>
+
+					<div>
+						
+					</div>
+
+				</div>
+				
+				<div class="servicio">
+					<img src="./img/img-solutions1.jpg" height="150px" width="250px" alt="img">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, provident aut neque, placeat velit sequi, nulla consequuntur cum ipsam quo quasi veritatis maxime sint molestias eveniet. Totam ab ullam laboriosam!
+					</p>
+					<a href="#">Leer más</a>
+
+				</div>
+			</div>
+		</section> <!-- Fin de Servic. sec.-->
+		
+		<div class="blankline30"></div>
+
+		<section class="workwith-sec contenedor seccion"> <!-- Incio de Trabajamos con sec.-->
+
+                        <div class="row">
+                            <div class="span12 centrar-texto">
+                                <h3 class="title"> <strong>Trabajamos </strong> con</h3>
+                                <div class="blankline30"></div>
+
+
+                                <ul class="bxslider">
+                                    <li>
+                                        <div class="iconos-carrousel">
+                                            <i class="icon-circled icon-bglight icon-4x icon-apple"></i>
+                                            <i class="icon-circled icon-bgdark fab fa-windows icon-4x"></i>
+                                            <i class="icon-circled icon-bglight icon-4x fab fa-linux"></i>
+                                        </div>
+                                        <div class="testimonial-autor ">
+                                            <p></p>
+                                            <p> Todos los sistemas operativos</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="iconos-carrousel">
+                                            <img src="img/Vmware.svg" alt="" />
+                                            <img src="img/Citrix.svg" alt="" />
+                                            <img src="img/hyperv.png" height="150" width="150" alt="" />
+                                            <img src="img/virtualbox.png" height="50$%" width="100" alt="" />
+
+                                        </div>
+                                        <div class="testimonial-autor">
+                                            <p>Trabajamos todas las plataformas del mercado en virtualizacion</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="iconos-carrousel">
+                                            <img src="img/Veeam.svg" height="100" width="100" alt="" />
+                                            <img src="img/Acronis.svg" height="150" width="150" alt="" />
+                                            <img src="img/iperius.png" height="80px" width="80px" alt="" />
+
+                                            <!-- <img src="img/iperius.png" height="25px" width="150px" alt="" /> -->
+
+                                        </div>
+                                        <div class="testimonial-autor">
+                                            <p></p>
+                                            <p>Back-ups y recuperacion de datos</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+
+                                        <div class="iconos-carrousel">
+                                            <img src="img/dell.svg" height="100" width="100" alt="" />
+                                            <img src="img/lenovo.svg" height="150" width="150" alt="" />
+                                            <img src="img/IBM.svg" height="100" width="100" alt="" />
+                                            <img src="img/hp.svg" height="100" width="100" alt="" />
+                                        </div>
+
+                                        <div class="testimonial-autor">
+                                            <p>Servidores y Hardware de primera linea</p>
+                                        </div>
+                                    </li>
+                                    <li>
+
+                                        <div class="iconos-carrousel">
+                                            <img src="img/Cisco.svg" height="100" width="100" alt="" />
+                                            <img src="img/mikrotik.svg" height="150" width="150" alt="" />
+                                            <img src="img/Linksys.svg" height="150" width="150" alt="" />
+                                            <img src="img/juniper.svg" height="100" width="150" alt="" />
+                                            <img src="img/fortinet.svg" height="150" width="150" alt="" />
+                                        </div>
+
+                                        <div class="testimonial-autor">
+                                            <p></p>
+                                            <p>Networking </p>
+                                        </div>
+                                    </li>
+                                    <li>
+
+                                        <div class="iconos-carrousel">
+                                            <img src="img/bosh.jpg" height="100" width="100" alt="" />
+                                            <img src="img/dahua.jpg" height="100" width="100" alt="" />
+                                            <img src="img/hikvision.jpg" height="100" width="100" alt="" />
+                                            <img src="img/honeywell.jpg" height="100" width="100" alt="" />
+                                        </div>
+
+                                        <div class="testimonial-autor">
+                                            <p></p>
+                                            <p> Utilizamos marcas pioneras enfocadas en ambitos de seguridad.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+		</section> <!-- Fin de Trabajamos con sec.-->
+
+
+		<section id="" class=""> <!-- Inicio de Abonos -->
+
+
+		</section> <!-- Fin de Abonos.-->
+
+
+		<section id="" class="contenedor seccion centrar-texto"> <!-- Inicio de Newsletter -->
+			<div class="footer-newsletter">
+			    <div class="container">
+			    	<div class="row justify-content-center">
+			          	<div class="col-lg-6">
+			          		<i class="fa fa-paper-plane fa-2x"></i>
+				            <h4>Subscribite a nuestro Newsletter </h4>
+				            <p>Recibí novedades y ofertas para aprovechar! </p>
+				            <form action="" method="post">
+				            <input type="email" name="email"><input type="submit" value="Registrar">
+				            </form>
+			          	</div>
+			        </div>
+			    </div>
+    		</div>
+		</section> <!-- Fin de Newsletter.-->
+
+
+
+		<section id="" class="contenedor seccion centrar-texto">
+
+                    <div class=" contenedor-row centrar-texto">
+
+                        <div class="contenedor ">
+                            <img src="img/crecer.svg " alt=" " class="flyLeft " />
+                        </div>
+                        <div class="contenedor ">
+                            <div class="flyRight ">
+                                <div class="blankline30 "></div>
+
+                                <h4><span>Te ayudamos a</span> <strong> <span class="colored ">crecer</span></strong></h4>
+                                <p>
+                                    Adecuamos nuestras soluciones y servicios según las necesidades y requerimientos de cada cliente, trabajando en forma conjunta a fin de definir resultados acordes con la estrategia general del negocio.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                 <div class=" contenedor centrar-texto">
+                    <div class="span12 aligncenter ">
+                        <h3 class="title "><strong>Estamos</strong> para <strong>asesorarte!</strong></h3>
+                        <div class="blankline30 "></div>
+                        <p>Contactate a nuestro whatsapp, mail o formulario de contacto.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+	</main> <!-- Fin de Main -->
+	
+ <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Nombre</h3>
+            <p>
+              Direccion <br>
+              Buenos Aires, CABA<br>
+              Argentina <br><br>
+              <strong>Teléfono:</strong> +54 9 11 5589 55488<br>
+              <strong>Email:</strong> contacto@sur-it.com.ar<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nosotros</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4> Servicios</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestras redes sociales</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3 d-flex justify-content-between">
+				<a class="facebook" href="#"><i class="fa fa-facebook color-secundary"></i></a>
+		        <a class="twitter" href="#"><i class="fa fa-twitter  color-secundary"></i></a>
+		        <a class="github" href="#"><i class="fa fa-github  color-secundary"></i></a>
+		       	<a class="linkedin" href="#"><i class="fa fa-linkedin  color-secundary"></i></a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+   </footer><!-- End Footer -->
+
+	
+  <!------------------ Scripts Propios  ---------------------->
+  <script src="js/my_script.js"></script> 
+  <!----------------------- Boostrap ------------------------>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!------------------------ jQuery  ------------------------->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!--------------------- Scripts Aos  ----------------------->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+  <!---------------------------------------------------------->
+
+
+
+</body> <!-- Fin de Body -->
+
+
 </html>

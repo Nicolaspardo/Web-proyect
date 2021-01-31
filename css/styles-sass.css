@@ -1,0 +1,242 @@
+/*-----------------------------------
+-------------------------------------
+------------ Generales  -------------			
+-------------------------------------
+-----------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", "sans-serif";
+  color: #063647; }
+
+h1 {
+  font-size: 3.8rem; }
+
+h2 {
+  font-size: 3.4rem; }
+
+h3 {
+  font-size: 3rem; }
+
+h4 {
+  font-size: 2.6rem; }
+
+h5 {
+  font-size: 2rem; }
+
+h6 {
+  font-size: 1.5rem; }
+
+/* Utilidades */
+.content {
+  text-align: center; }
+
+.normal {
+  font-style: normal; }
+
+.italica {
+  font-style: italic; }
+
+.negrita {
+  font-weight: bold; }
+
+.normal {
+  font-weight: normal; }
+
+.color-primary {
+  color: #063647; }
+
+.color-secundary {
+  color: #09E4A2; }
+
+.color-tercery {
+  color: #00FFB4; }
+
+.color-fourty {
+  color: #270570; }
+
+.color-fifth {
+  color: #d0bbfa; }
+  
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  /** = 1200px; **/
+  margin: 0 auto;
+  padding-bottom: 60px; }
+
+.seccion {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.fw-100 {
+  font-weight: 100; }
+
+.fw-300 {
+  font-weight: 300; }
+
+.fw-900 {
+  font-weight: 900; }
+
+.fw-500 {
+  font-weight: 500; }
+
+.centrar-texto {
+  text-align: center; }
+
+.contenido-centrado {
+  max-width: 800px; }
+
+.blankline {
+  height: 1px;
+  margin: 0 0 10px; }
+
+.blankline20 {
+  height: 20px;
+  margin: 0; }
+
+.blankline30 {
+  height: 30px;
+  margin: 0; }
+
+/** Botones **/
+.boton {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  border: none; }
+
+.boton:hover {
+  cursor: pointer; }
+
+.boton-amarillo {
+  background-color: #E08709; }
+
+.boton-verde {
+  background-color: #00FFB4; }
+
+/*-----------------------------------
+-------------------------------------
+------------- Body  -----------------			
+-------------------------------------
+-----------------------------------*/
+body {
+  width: 100%;
+  height: 400px;
+  background-color: #FFFFFF;
+  font-size: 1.6rem;
+  line-height: 2; }
+
+/*-----------------------------------
+-------------------------------------
+------------- Navbar  ---------------			
+-------------------------------------
+-----------------------------------*/
+/* Add a black background color to the top navigation */
+.navbar {
+  width: 100%;
+  /* Full width */
+  background-color: #FFFFFF;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/*-----------------------------------
+-------------------------------------
+------------- Navbar  ---------------			
+-------------------------------------
+-----------------------------------*/
+/* Add a black background color to the top navigation */
+.navbar {
+  width: 100%;
+  /* Full width */
+  background-color: #FFFFFF;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.navbar-items {
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  align-items: center; }
+
+.navbar-logo {
+  text-align: center;
+  padding: 5px 5px 5px 5px; }
+
+.navbar-contact {
+  text-align: center;
+  padding: 5px 5px 5px 5px; }
+
+.navbar .social {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  color: #00FFB4; }
+
+.navbar button {
+  padding: 5px 5px 5px 5px;
+  background-color: #056A83; }
+
+.navbar a {
+  font-size: 16px;
+  color: #063647;
+  text-align: center;
+  padding: 10px 16px 10px;
+  text-decoration: none;
+  font-size: 17px; }
+
+.navbar a:hover {
+  text-decoration: none;
+  background-color: #00FFB4; }
+
+.navbar a.active {
+  background-color: #00FFB4;
+  color: white; }
+
+/* The subnavigation menu */
+.subnav {
+  overflow: hidden; }
+  .subnav .subnav:hover {
+    background-color: #00FFB4;
+    box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.2);
+    color: #063647;
+    display: block; }
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 30%;
+  z-index: 1;
+  display: block; }
+  .subnav-content a {
+    color: white;
+    text-decoration: none; }
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black; }
+
+.subnavbtn {
+  background-color: red; }
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem; }
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700; }
