@@ -1,0 +1,9 @@
+
+.botonAceptar{
+	@include minxinBotones (red,100px,50px);
+}
+
+
+.botonCancelar{
+	@include minxinBotones (green,150px150px);
+}
